@@ -1,0 +1,1 @@
+example_anime/anime4.jpg: Error when hit api : 400
