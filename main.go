@@ -244,12 +244,7 @@ func CreateResultFile(animeInfos []Url) (string, error) {
 }
 
 func main() {
-	fmt.Println("Pastikan file zip berada di direktori yang sama dengan file ini")
-	fmt.Print("Masukkan nama file zip yang ingin diextract (contoh: anime.zip) : ")
-
-	var filename string
-	fmt.Scanln(&filename)
-
+	fmt.Println("reading from folder ...")
 	// extract file
 	// imageUrls, errExtract := extractZip(filename)
 	// if errExtract != nil {
